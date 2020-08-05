@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/trapdate/static/css/main.fa212d5b.chunk.css",
-    "main.js": "/trapdate/static/js/main.1351957c.chunk.js",
-    "main.js.map": "/trapdate/static/js/main.1351957c.chunk.js.map",
+    "main.js": "/trapdate/static/js/main.d64c971a.chunk.js",
+    "main.js.map": "/trapdate/static/js/main.d64c971a.chunk.js.map",
     "runtime-main.js": "/trapdate/static/js/runtime-main.879c4135.js",
     "runtime-main.js.map": "/trapdate/static/js/runtime-main.879c4135.js.map",
     "static/js/2.0e871f02.chunk.js": "/trapdate/static/js/2.0e871f02.chunk.js",
     "static/js/2.0e871f02.chunk.js.map": "/trapdate/static/js/2.0e871f02.chunk.js.map",
     "index.html": "/trapdate/index.html",
-    "precache-manifest.ccfadd08813a5ffa8d24ee790dc16e98.js": "/trapdate/precache-manifest.ccfadd08813a5ffa8d24ee790dc16e98.js",
+    "precache-manifest.0ae35d2b3c907f6eeb8a551f716cc2c7.js": "/trapdate/precache-manifest.0ae35d2b3c907f6eeb8a551f716cc2c7.js",
     "service-worker.js": "/trapdate/service-worker.js",
     "static/css/main.fa212d5b.chunk.css.map": "/trapdate/static/css/main.fa212d5b.chunk.css.map",
     "static/js/2.0e871f02.chunk.js.LICENSE.txt": "/trapdate/static/js/2.0e871f02.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.879c4135.js",
     "static/js/2.0e871f02.chunk.js",
     "static/css/main.fa212d5b.chunk.css",
-    "static/js/main.1351957c.chunk.js"
+    "static/js/main.d64c971a.chunk.js"
   ]
 }
