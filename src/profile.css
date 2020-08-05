@@ -1,0 +1,131 @@
+@font-face {
+    font-family: myFont;
+    src: url(BTTF.ttf);
+  }
+.profile
+{
+    /* width: 100%; */
+   margin: 10px;
+   justify-content: space-around;
+   align-items: center;
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    
+}
+.username{
+    
+    animation: scroll-left 6s linear infinite;
+    color: #FFD700;
+    /* text-shadow: 0 0 10px #2196f3,0 0 5px #111111,0 0 120px #2196f3; */
+  font-family: myFont;
+  margin-top: 20px;
+  text-shadow: 0 0 10px #FFD700,0 0 5px #111111,0 0 120px #FFD700;
+}
+
+/* .bio
+{
+    color: #2196f3;
+    text-shadow: 0 0 10px #2196f3,0 0 5px #111111,0 0 80px #2196f3;
+  font-family: myFont;
+  border-radius: 15px;
+  height: 150px;
+  width: 330px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid #2196f3;
+  border-radius: 50px 50px 5px 50px;
+  text-align: center;
+  margin: 2px;
+  
+  } */
+.container
+{
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 10px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  top: 60px;
+}
+.card
+{
+  position: relative;
+max-width: 300px;
+height: 280px;
+border: 2px solid #2196f3;
+margin: 30px 10px;
+padding: 20px 15px;
+display: flex;
+flex-direction: column;
+font-family: myFont;
+box-shadow: 0 5px 15px 0 #2196f3 inset ,0 5px 15px 0 #2196f3,
+                0 5px 15px 0 #2196f3 inset ,0 5px 15px 0 #2196f3;
+/* transition: 0.3s ease-in-out; */
+border-radius: 25px 25px 0px 0px;
+}
+.imgbx
+{
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  /* left: 20px; */
+  align-items: center;
+}
+.pic
+{
+  align-self: center;
+  width: 180px;
+  height: 160px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid #2196f3;
+  box-shadow: 0 5px 10px 0 #2196f3 inset ,0 5px 10px 0 #2196f3,
+                0 5px 10px 0 #2196f3 inset ,0 5px 10px 0 #2196f3;
+}
+.content
+{
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #2196f3;
+  text-shadow: 0 0 10px #2196f3,0 0 5px #111111,0 0 120px #2196f3;
+  /* transition: 0.3s ease-in-out; */
+}
+.bio
+{
+  
+  margin: 5px;
+}
+
+
+/* .pic
+{
+  border: 2px solid #2196f3;
+  width: 300px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50px 50px 50px 5px;
+  margin: 10px;
+} */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.gd
+{
+  align-items: center;
+}

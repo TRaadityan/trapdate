@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+@font-face {
+    font-family: myFont;
+    src: url(BTTF.ttf);
+  }
+  
+.xop-section {
+	max-width: 800px;
+	margin: 0 auto;
+    padding: 6% 2%;
+    align-items: center;
+    left: 20px;
+}
+
+.xop-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+    width: 100%;
+    left: 20px;
+}
+
+.xop-grid:after {
+	clear: both;
+}
+
+.xop-grid:after, .xop-box:before {
+	content: '';
+	display: table;
+}
+
+.xop-grid li {
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.xop-grid li {
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.xop-box {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+    /* right: 10px; */
+    border: 2px solid #FFD700;
+    box-shadow: 0 0 10px #FFD700,0 0 0px #FFD700,0 0 120px #FFD700;
+    /* box-shadow: 0 5px 25px 0 #2196f3 inset ,0 5px 25px 0 #2196f3,
+                0 5px 25px 0 #2196f3 inset ,0 5px 25px 0 #2196f3; */
+}
+
+.xop-box:hover {
+	transform: scale(1.05); 
+}
+
+.xop-img-1 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+    url(./IMG_20181226_122904.jpg);
+   
+}
+
+.xop-img-2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+    url(./IMG_20181226_122904.jpg);
+    
+}
+
+.xop-img-3 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(./IMG_20181226_122904.jpg);
+}
+
+.xop-img-4 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(./IMG_20181226_122904.jpg);
+}
+
+.xop-info {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+}
+
+.xop-info h3 {
+	font-family: myFont;
+	font-weight: 400;
+    color: 	#FFD700;
+    text-shadow: 0 0 10px #FFD700,0 0 5px #111111,0 0 120px #FFD700;
+	font-size: 42px;
+	margin: 0 30px;
+	padding: 100px 0 0 0;
+	line-height: 1.5;
+}
+
+.xop-info p {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2196f3;
+	padding: 4px 5px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height: 2;
+}

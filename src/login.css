@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
+@font-face {
+  font-family: myFont;
+  src: url(BTTF.ttf);
+}
+
+.login {
+	position: relative;
+	min-height: 100vh;
+	background-color: 	#111111;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* font-family: "Fira Sans", Helvetica, Arial, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.form-structor {
+	background-color: #111111	;
+	border-radius: 15px;
+	height: 580px;
+	width: 330px;
+	position: relative;
+    overflow: hidden;
+    /* box-shadow: 0 0 20px #2196f3,0 0 60px #2196f3,0 0 120px #2196f3; */
+    /* color: #2196f3;
+    box-shadow: 0 0 8px #111111,
+                 0 0 20px #2196f3,
+                 0 0 40px #2196f3,
+                 0 0 80px #2196f3,
+                 0 0 120px #2196f3,
+                 0 0 160px #2196f3;  */
+    animation: fadein 1s  normal forwards ease-in-out;
+    
+    /* border: 5px solid  #2196f3 ; */
+    
+}
+
+
+
+@keyframes fadein
+{
+  0%
+  {
+    box-shadow: 0 0 8px #111111,
+
+  }
+100%
+{
+  color: #2196f3;
+  box-shadow: 0 0 8px #111111,
+               0 0 20px #2196f3,
+               0 0 40px #2196f3,
+               0 0 80px #2196f3,
+               0 0 120px #2196f3,
+               0 0 160px #2196f3; 
+
+
+}
+}
+	
+.signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    z-index: 5;
+    transition: all .3s ease;
+}
+.form-title {
+    
+ 
+    color: #fff;
+    font-family: myFont;
+    /* font-family: consolas; */
+    font-size: 3.7em;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* color: #2196f3; */
+    color: #111111;
+    /* text-shadow: 0 0 10px #2196f3,0 0 5px #111111,0 0 120px #2196f3; */
+    animation: tt 2s  normal forwards ease-in-out;
+    
+    /* background-color: #202020; */
+}
+@keyframes tt{
+  from{
+    text-shadow: none;
+  }
+  to{
+    color: #2196f3;
+    text-shadow: 0 0 10px #2196f3,0 0 5px #111111,0 0 120px #2196f3;
+  }
+}
+
+.form-holder {
+  border-radius: 15px;
+  /* background-color: rgba(0,0,0,0.4); */
+    overflow: hidden;
+    margin-top: 50px;
+    opacity: 1;
+    visibility: visible;
+    transition: all .3s ease;
+    margin-bottom: 40px;
+    color: #2196f3;
+    font-family: myFont;
+    /* box-shadow: 0 0 10px #111111; */
+}
+.input {
+  
+  font-family: myFont;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 8px 15px;
+    /* border-bottom: 1px solid #eee; */
+    width: 100%;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0.4);
+    color: #2196f3;
+    
+}
+.submit-btn {
+  background-color: rgba(0,0,0,0.4);
+    color: #2196f3;
+    text-shadow: 0 0 10px #2196f3,0 0 0px #2196f3,0 0 120px #2196f3;
+    letter-spacing: 2px;
+    border:0;
+    border-radius: 15px;
+    display: block;
+    margin: 15px auto; 
+    padding: 15px 45px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+    transition: all .3s ease;
+    font-family: myFont;
+    animation: gg 1s ease-in-out;
+}
+@keyframes gg
+{
+  from
+  { 
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 30px #2196f3,0 0 60px #2196f3;
+  }
+  to
+  {
+    background-color: rgba(0,0,0,0.4);
+  }
+}
+
+.link
+{
+  text-decoration: none;
+}
+.submit-btn:hover{
+
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 30px #2196f3,0 0 60px #2196f3;
+    
+
+}
