@@ -4,9 +4,7 @@ import { Link} from 'react-router-dom';
 
 function Login()
 {
-    // const change=()=>{
-    //    return <Link to="/profile"/>
-    // };
+  
   return (
       <div className="login">
         <div className="form-structor">

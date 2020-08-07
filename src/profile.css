@@ -129,3 +129,13 @@ border-radius: 25px 25px 0px 0px;
 {
   align-items: center;
 }
+
+.new
+{
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}

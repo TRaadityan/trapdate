@@ -1,7 +1,9 @@
 import React from 'react';
 import "./profile.css";
 import pic from "./IMG_20181226_122904.jpg";
-import Grid from "./grid";
+import Show from './show';
+// import Grid from "./grid";
+// import Slider from './slider'
 function Profile()
 {
     return(
@@ -19,7 +21,9 @@ function Profile()
    </div>
    </div>
    <div>
-      <Grid className="gd"/>
+      {/* <Grid className="gd"/> */}
+      {/* <Slider/> */}
+<Show className="new"/>
    </div>
 </div>
 
